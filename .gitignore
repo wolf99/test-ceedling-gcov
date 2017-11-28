@@ -1,0 +1,14 @@
+
+# Ceedling vendor files
+[Vv]endor/
+ 
+# Ceedling output
+/build/*
+
+# Keep the coverage reports
+!/build/artifacts
+!/build/artifacts/gcov
+!/build/artifacts/gcov/*
+
+# Build results
+*.o
