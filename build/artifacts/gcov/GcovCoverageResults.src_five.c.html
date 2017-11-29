@@ -234,13 +234,13 @@
 
 <body>
 
-  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr><td class="title">GCC Code Coverage Report</td></tr>
     <tr><td class="hr"></td></tr>
 
     <tr>
       <td width="100%">
-        <table cellpadding=1 border=0 width="100%">
+        <table cellpadding="1" border="0" width="100%">
           <tr>
             <td width="10%" class="headerName">Directory:</td>
             <td width="35%" class="headerValue">.</td>
@@ -251,26 +251,22 @@
             <td width="15%" class="headerValue" style="text-align:right;">Coverage</td>
           </tr>
           <tr>
+            <td class="headerName">File:</td>
+            <td class="headerValue">src/five.c</td>
+            <td></td>
+            <td class="headerName">Lines:</td>
+            <td class="headerTableEntry">2</td>
+            <td class="headerTableEntry">2</td>
+            <td class="headerTableEntry" style="background-color:LightGreen">100.0 %</td>
+          </tr>
+          <tr>
             <td class="headerName">Date:</td>
             <td class="headerValue">2017-11-29</td>
             <td></td>
-            <td class="headerName">Lines:</td>
-            <td class="headerTableEntry">68</td>
-            <td class="headerTableEntry">602</td>
-            <td class="headerTableEntry" style="background-color:LightPink">11.3 %</td>
-          </tr>
-          <tr>
-            <td class="headerName">Legend:</td>
-            <td class="headerValueLeg">
-              <span style="background-color:LightPink">low: &lt; 75.0 %</span>
-              <span style="background-color:#FFFF55">medium: &gt;= 75.0 %</span>
-              <span style="background-color:LightGreen">high: &gt;= 90.0 %</span>
-            </td>
-            <td></td>
             <td class="headerName">Branches:</td>
-            <td class="headerTableEntry">14</td>
-            <td class="headerTableEntry">403</td>
-            <td class="headerTableEntry" style="background-color:LightPink">3.5 %</td>
+            <td class="headerTableEntry">0</td>
+            <td class="headerTableEntry">0</td>
+            <td class="headerTableEntry" style="background-color:LightPink">0.0 %</td>
           </tr>
         </table>
       </td>
@@ -279,77 +275,97 @@
     <tr><td class="hr"></td></tr>
   </table>
 
-  <center>
-  <table width="80%" cellpadding=1 cellspacing=1 border=0>
+  <br>
+  <table cellspacing="0" cellpadding="1">
     <tr>
-      <td width="44%"><br></td>
-      <td width="8%"></td>
-      <td width="8%"></td>
-      <td width="8%"></td>
-      <td width="8%"></td>
-      <td width="8%"></td>
-    </tr>
-    <tr>
-      <td class="coverTableHead">File</td>
-      <td class="coverTableHead" colspan=3>Lines</td>
-      <td class="coverTableHead" colspan=2>Branches</td>
+      <td width="5%" align="right" class="srcHeader">Line</td>
+      <td width="10%" align="right" class="srcHeader">Exec</td>
+      <td width="75%" align="left" class="srcHeader src">Source</td>
     </tr>
 
     
     <tr>
-      <td class="coverFile" ><a href="GcovCoverageResults.src_five.c.html">src/five.c</a></td>
-      <td class="coverBar" align="center" >
-        <table border=0 cellspacing=0 cellpadding=1><tr><td class="coverBarOutline">
-                <div class="graph"><strong class="bar" style="width:100.0%; background-color:green"></strong></div>
-                </td></tr></table>
-      </td>
-      <td class="CoverValue" style="font-weight:bold; background-color:LightGreen;">100.0&nbsp;%</td>
-      <td class="CoverValue" style="font-weight:bold; background-color:LightGreen;">2 / 2</td>
-      <td class="CoverValue" style="background-color:LightGreen;">100.0&nbsp;%</td>
-      <td class="CoverValue" style="background-color:LightGreen;">0 / 0</td>
+    <td align="right" class="lineno"><pre>1</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre>#include "five.h"</pre></td>
     </tr>
-
 
     <tr>
-      <td class="coverFile" style="background-color:LightSteelBlue"><a href="GcovCoverageResults.vendor_ceedling_vendor_unity_src_unity.c.html">vendor/ceedling/vendor/unity/src/unity.c</a></td>
-      <td class="coverBar" align="center" style="background-color:LightSteelBlue">
-        <table border=0 cellspacing=0 cellpadding=1><tr><td class="coverBarOutline">
-                <div class="graph"><strong class="bar" style="width:12.2%; background-color:red"></strong></div>
-                </td></tr></table>
-      </td>
-      <td class="CoverValue" style="font-weight:bold; background-color:LightPink;">12.2&nbsp;%</td>
-      <td class="CoverValue" style="font-weight:bold; background-color:LightPink;">66 / 542</td>
-      <td class="CoverValue" style="background-color:LightPink;">3.8&nbsp;%</td>
-      <td class="CoverValue" style="background-color:LightPink;">14 / 367</td>
+    <td align="right" class="lineno"><pre>2</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre></pre></td>
     </tr>
-
 
     <tr>
-      <td class="coverFile" ><a href="GcovCoverageResults.vendor_ceedling_vendor_cmock_src_cmock.c.html">vendor/ceedling/vendor/cmock/src/cmock.c</a></td>
-      <td class="coverBar" align="center" >
-        <table border=0 cellspacing=0 cellpadding=1><tr><td class="coverBarOutline">
-                <div class="graph"><strong class="bar" style="width:0.0%; border:white; background-color:red"></strong></div>
-                </td></tr></table>
-      </td>
-      <td class="CoverValue" style="font-weight:bold; background-color:LightPink;">0.0&nbsp;%</td>
-      <td class="CoverValue" style="font-weight:bold; background-color:LightPink;">0 / 58</td>
-      <td class="CoverValue" style="background-color:LightPink;">0.0&nbsp;%</td>
-      <td class="CoverValue" style="background-color:LightPink;">0 / 36</td>
+    <td align="right" class="lineno"><pre>3</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="left" class="src coveredLine"><pre>int gimme_five(void)</pre></td>
     </tr>
-
 
     <tr>
-      <td width="44%"><br></td>
-      <td width="8%"></td>
-      <td width="8%"></td>
-      <td width="8%"></td>
-      <td width="8%"></td>
-      <td width="8%"></td>
+    <td align="right" class="lineno"><pre>4</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre>{</pre></td>
     </tr>
+
+    <tr>
+    <td align="right" class="lineno"><pre>5</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="left" class="src coveredLine"><pre>    return 5;</pre></td>
+    </tr>
+
+    <tr>
+    <td align="right" class="lineno"><pre>6</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre>}</pre></td>
+    </tr>
+
+    <tr>
+    <td align="right" class="lineno"><pre>7</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre></pre></td>
+    </tr>
+
+    <tr>
+    <td align="right" class="lineno"><pre>8</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre>// int main(void)</pre></td>
+    </tr>
+
+    <tr>
+    <td align="right" class="lineno"><pre>9</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre>// {</pre></td>
+    </tr>
+
+    <tr>
+    <td align="right" class="lineno"><pre>10</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre>    // volatile int high = gimme_five();</pre></td>
+    </tr>
+
+    <tr>
+    <td align="right" class="lineno"><pre>11</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre>    // high = high;</pre></td>
+    </tr>
+
+    <tr>
+    <td align="right" class="lineno"><pre>12</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre>    // return 0;</pre></td>
+    </tr>
+
+    <tr>
+    <td align="right" class="lineno"><pre>13</pre></td>
+    <td align="right" class="linecount "><pre></pre></td>
+    <td align="left" class="src "><pre>// }</pre></td>
+    </tr>
+
   </table>
-  </center>
+  <br>
 
-  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr><td class="hr"><td></tr>
     <tr><td class="footer">Generated by: <a href="http://gcovr.com">GCOVR (Version 3.2)</a></td></tr>
   </table>
