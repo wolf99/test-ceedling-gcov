@@ -1,2 +1,2 @@
 
-int gimme_five(void);
+int gimme_five(int offer);

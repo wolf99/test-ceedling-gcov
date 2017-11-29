@@ -646,7 +646,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>61</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>8</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>32</pre></td>
     <td align="left" class="src coveredLine"><pre>void UnityPrint(const char* string)</pre></td>
     </tr>
 
@@ -658,7 +658,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>63</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>8</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>32</pre></td>
     <td align="left" class="src coveredLine"><pre>    const char* pch = string;</pre></td>
     </tr>
 
@@ -670,7 +670,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>65</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>8</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>32</pre></td>
     <td align="left" class="src coveredLine"><pre>    if (pch != NULL)</pre></td>
     </tr>
 
@@ -682,7 +682,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>67</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>117</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>468</pre></td>
     <td align="left" class="src coveredLine"><pre>        while (*pch)</pre></td>
     </tr>
 
@@ -700,7 +700,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>70</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>101</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>404</pre></td>
     <td align="left" class="src coveredLine"><pre>            if ((*pch &lt;= 126) &amp;&amp; (*pch &gt;= 32))</pre></td>
     </tr>
 
@@ -712,7 +712,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>72</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>101</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>404</pre></td>
     <td align="left" class="src coveredLine"><pre>                UNITY_OUTPUT_CHAR(*pch);</pre></td>
     </tr>
 
@@ -838,7 +838,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>93</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>101</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>404</pre></td>
     <td align="left" class="src coveredLine"><pre>            pch++;</pre></td>
     </tr>
 
@@ -856,7 +856,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>96</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>8</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>32</pre></td>
     <td align="left" class="src coveredLine"><pre>}</pre></td>
     </tr>
 
@@ -1210,7 +1210,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>155</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>void UnityPrintNumber(const UNITY_INT number_to_print)</pre></td>
     </tr>
 
@@ -1222,7 +1222,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>157</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_UINT number = (UNITY_UINT)number_to_print;</pre></td>
     </tr>
 
@@ -1234,7 +1234,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>159</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>    if (number_to_print &lt; 0)</pre></td>
     </tr>
 
@@ -1270,13 +1270,13 @@
 
     <tr>
     <td align="right" class="lineno"><pre>165</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrintNumberUnsigned(number);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>166</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>}</pre></td>
     </tr>
 
@@ -1300,7 +1300,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>170</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>void UnityPrintNumberUnsigned(const UNITY_UINT number)</pre></td>
     </tr>
 
@@ -1312,7 +1312,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>172</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_UINT divisor = 1;</pre></td>
     </tr>
 
@@ -1330,7 +1330,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>175</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>8</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>32</pre></td>
     <td align="left" class="src coveredLine"><pre>    while (number / divisor &gt; 9)</pre></td>
     </tr>
 
@@ -1378,25 +1378,25 @@
 
     <tr>
     <td align="right" class="lineno"><pre>183</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>        UNITY_OUTPUT_CHAR((char)('0' + (number / divisor % 10)));</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>184</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>        divisor /= 10;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>185</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>    } while (divisor &gt; 0);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>186</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>16</pre></td>
     <td align="left" class="src coveredLine"><pre>}</pre></td>
     </tr>
 
@@ -2296,7 +2296,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>336</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>static void UnityTestResultsBegin(const char* file, const UNITY_LINE_TYPE line)</pre></td>
     </tr>
 
@@ -2308,43 +2308,43 @@
 
     <tr>
     <td align="right" class="lineno"><pre>338</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrint(file);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>339</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_OUTPUT_CHAR(':');</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>340</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrintNumber((UNITY_INT)line);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>341</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_OUTPUT_CHAR(':');</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>342</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrint(Unity.CurrentTestName);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>343</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_OUTPUT_CHAR(':');</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>344</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>}</pre></td>
     </tr>
 
@@ -2410,7 +2410,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>355</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>void UnityConcludeTest(void)</pre></td>
     </tr>
 
@@ -2422,7 +2422,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>357</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    if (Unity.CurrentTestIgnored)</pre></td>
     </tr>
 
@@ -2446,7 +2446,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>361</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    else if (!Unity.CurrentTestFailed)</pre></td>
     </tr>
 
@@ -2458,13 +2458,13 @@
 
     <tr>
     <td align="right" class="lineno"><pre>363</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>        UnityTestResultsBegin(Unity.TestFile, Unity.CurrentTestLineNumber);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>364</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>        UnityPrint(UnityStrPass);</pre></td>
     </tr>
 
@@ -2506,19 +2506,19 @@
 
     <tr>
     <td align="right" class="lineno"><pre>371</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.CurrentTestFailed = 0;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>372</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.CurrentTestIgnored = 0;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>373</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_PRINT_EOL();</pre></td>
     </tr>
 
@@ -2530,7 +2530,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>375</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>}</pre></td>
     </tr>
 
@@ -3358,7 +3358,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>513</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>void UnityAssertEqualNumber(const UNITY_INT expected,</pre></td>
     </tr>
 
@@ -3394,7 +3394,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>519</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    RETURN_IF_FAIL_OR_IGNORE;</pre></td>
     </tr>
 
@@ -3406,7 +3406,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>521</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    if (expected != actual)</pre></td>
     </tr>
 
@@ -8344,7 +8344,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>1344</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>void UnityBegin(const char* filename)</pre></td>
     </tr>
 
@@ -8356,49 +8356,49 @@
 
     <tr>
     <td align="right" class="lineno"><pre>1346</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.TestFile = filename;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1347</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.CurrentTestName = NULL;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1348</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.CurrentTestLineNumber = 0;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1349</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.NumberOfTests = 0;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1350</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.TestFailures = 0;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1351</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.TestIgnores = 0;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1352</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.CurrentTestFailed = 0;</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1353</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    Unity.CurrentTestIgnored = 0;</pre></td>
     </tr>
 
@@ -8410,7 +8410,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>1355</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_CLR_DETAILS();</pre></td>
     </tr>
 
@@ -8422,7 +8422,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>1357</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>}</pre></td>
     </tr>
 
@@ -8440,7 +8440,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>1360</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>int UnityEnd(void)</pre></td>
     </tr>
 
@@ -8452,67 +8452,67 @@
 
     <tr>
     <td align="right" class="lineno"><pre>1362</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_PRINT_EOL();</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1363</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrint(UnityStrBreaker);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1364</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_PRINT_EOL();</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1365</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrintNumber((UNITY_INT)(Unity.NumberOfTests));</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1366</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrint(UnityStrResultsTests);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1367</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrintNumber((UNITY_INT)(Unity.TestFailures));</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1368</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrint(UnityStrResultsFailures);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1369</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrintNumber((UNITY_INT)(Unity.TestIgnores));</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1370</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UnityPrint(UnityStrResultsIgnored);</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1371</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_PRINT_EOL();</pre></td>
     </tr>
 
     <tr>
     <td align="right" class="lineno"><pre>1372</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    if (Unity.TestFailures == 0U)</pre></td>
     </tr>
 
@@ -8524,7 +8524,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>1374</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>        UnityPrint(UnityStrOk);</pre></td>
     </tr>
 
@@ -8578,7 +8578,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>1383</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    UNITY_PRINT_EOL();</pre></td>
     </tr>
 
@@ -8596,7 +8596,7 @@
 
     <tr>
     <td align="right" class="lineno"><pre>1386</pre></td>
-    <td align="right" class="linecount coveredLine"><pre>1</pre></td>
+    <td align="right" class="linecount coveredLine"><pre>4</pre></td>
     <td align="left" class="src coveredLine"><pre>    return (int)(Unity.TestFailures);</pre></td>
     </tr>
 

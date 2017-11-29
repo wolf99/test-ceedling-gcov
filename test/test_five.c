@@ -7,5 +7,5 @@ void tearDown(void) { }
 
 void test_gimme_five_should_give_me_five(void)
 {
-	TEST_ASSERT_EQUAL_INT(5, gimme_five());
+	TEST_ASSERT_EQUAL_INT(5, gimme_five(5));
 }

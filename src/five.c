@@ -1,13 +1,9 @@
 #include "five.h"
 
-int gimme_five(void)
+int gimme_five(int offer)
 {
-    return 5;
+    if(offer == 5 || offer == 10)
+        return 5; /* yeah! */
+    else
+        return 0; /* uncool bro */
 }
-
-// int main(void)
-// {
-    // volatile int high = gimme_five();
-    // high = high;
-    // return 0;
-// }
